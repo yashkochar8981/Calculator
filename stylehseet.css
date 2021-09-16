@@ -1,0 +1,67 @@
+body{
+	font-family: cursive;
+	background-color: #f5f3f4;
+}
+
+span{
+	cursor: pointer;
+}
+
+#heading{
+	width: 90vw;
+	height: 9vh;
+	/*background-color: #ced4da;*/
+	display: flex;
+	align-items: center;
+	font-size: 1.9rem;
+
+}
+
+#screen{
+	width: 90vw;
+	height: 20vh;
+	border: 2px solid black;
+	margin: 10px;
+	margin-left: 0px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#outer{
+	text-align: right;
+}
+
+#output{
+	font-size: 2rem;
+}
+
+#numpad{
+	width: 90vw;
+	/*height: 60vh;*/
+}
+.key-row{
+	display: flex;
+	height: 10vh;
+	width: 90vw;
+}
+
+.key{
+	height: 90%;
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #ced4da;
+	background-color: white;
+	margin: 2px;
+}
+
+.function{
+	background-color: #f5f3f4;
+	opacity: 0.9;
+}
+
+.key:hover{
+	background-color: #dee2e6;
+}
